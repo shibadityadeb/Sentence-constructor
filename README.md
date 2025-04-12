@@ -30,3 +30,10 @@ This is a **React + Vite** based web application that presents users with incomp
 - [JSON Server](https://github.com/typicode/json-server)
 - [React Router](https://reactrouter.com/)
 
+## 🚀 Deployment
+
+The app is deployed on Vercel:
+
+🔗 [https://sentence-constructor.vercel.app](https://sentence-constructor.vercel.app)
+
+> ⚠️ Note: The JSON Server runs locally. To see the complete functionality (including quiz questions), please run the API with `json-server` as described above.
