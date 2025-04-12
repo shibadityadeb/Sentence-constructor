@@ -1,12 +1,36 @@
-# React + Vite
+# 🧠 Sentence Construction Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React + Vite** based web application that presents users with incomplete sentences and a set of word options to complete them. It includes a timer, scoring system, and a final result/feedback screen.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- Fill-in-the-blank sentences with interactive word selection.
+- 4 word options per question.
+- Click to deselect an answer from the sentence.
+- **30-second timer** for each question.
+- Auto navigation to the next question when timer runs out.
+- “Next” button is disabled until all blanks are filled.
+- Feedback screen at the end showing:
+  - Correct vs Incorrect answers.
+  - The correct answer for any incorrect response.
+  - Final score out of 10.
+- Fully responsive design.
+- Clean and minimal UI using **Tailwind CSS**.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/) *(optional)*
+- [Tailwind CSS](https://tailwindcss.com/)
+- [JSON Server](https://github.com/typicode/json-server)
+- [React Router](https://reactrouter.com/)
+
+---
+
+## 📁 Project Structure
+sentence-construction-tool/ ├── public/ ├── src/ │ ├── components/ # Reusable UI components │ ├── pages/ # Quiz and Result pages │ ├── App.tsx │ ├── main.tsx │ └── index.css ├── db.json # JSON data for the quiz (run using JSON Server) ├── tailwind.config.cjs ├── vite.config.ts ├── package.json └── README.md
