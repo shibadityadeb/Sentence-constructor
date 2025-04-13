@@ -25,7 +25,6 @@ This is a **React + Vite** based web application that presents users with incomp
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [JSON Server](https://github.com/typicode/json-server)
 - [React Router](https://reactrouter.com/)
