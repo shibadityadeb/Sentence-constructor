@@ -9,13 +9,13 @@ This is a **React + Vite** based web application that presents users with incomp
 - Fill-in-the-blank sentences with interactive word selection.
 - 4 word options per question.
 - Click to deselect an answer from the sentence.
-- **30-second timer** for each question.
+- **60-second timer** for each question.
 - Auto navigation to the next question when timer runs out.
 - “Next” button is disabled until all blanks are filled.
 - Feedback screen at the end showing:
   - Correct vs Incorrect answers.
   - The correct answer for any incorrect response.
-  - Final score out of 10.
+  - Final score out of 100.
 - Fully responsive design.
 - Clean and minimal UI using **Tailwind CSS**.
 
